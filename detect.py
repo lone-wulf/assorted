@@ -106,7 +106,7 @@ init_()
 labelmap, net,transformer = init_()
 
 image_dir = './data/images/'
-fnames = glob.glob(faces_dir + '*jpg')
+fnames = glob.glob(image_dir + '*jpg')
 for fname in fnames:
 	dets = detect(fname, labelmap, net, transformer)
 
