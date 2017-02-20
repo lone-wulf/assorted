@@ -1,4 +1,4 @@
-# test the caffe based object detection system (opensource) trained on the custom data!
+# test the caffe based object detection system (opensource) trained on custom data!
 
 import numpy as np
 import cv2
@@ -104,7 +104,6 @@ def detect(fname, labelmap, net, transformer):
 
 	return dets
 
-init_()
 labelmap, net,transformer = init_()
 
 image_dir = './data/images/'
