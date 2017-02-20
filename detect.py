@@ -1,3 +1,5 @@
+# test the caffe based object detection system (opensource) trained on the custom data!
+
 import numpy as np
 import cv2
 import os
